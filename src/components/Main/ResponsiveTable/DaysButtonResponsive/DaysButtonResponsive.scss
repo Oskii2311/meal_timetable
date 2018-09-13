@@ -1,0 +1,12 @@
+@import '../../../../shared/style/variables.scss';
+.days-button-responsive-button {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 1px solid $button-border;
+  color: $button-border;
+  height: 30px;
+  width: 60px;
+  border-radius: 8px;
+  cursor: pointer;
+}

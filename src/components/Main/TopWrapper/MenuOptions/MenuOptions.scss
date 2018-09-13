@@ -1,0 +1,21 @@
+.menu-options-container {
+  width: 22%;
+  font-size: 9px;
+  color: #bdbdbd;
+  &__options {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__img {
+      height: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .menu-options-container {
+    width: 70%;
+    height: 80px;
+  }
+}

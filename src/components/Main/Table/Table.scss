@@ -1,0 +1,11 @@
+@import "../../../shared/style/variables.scss";
+table {
+  color: $table-font-color;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 13px;
+  .bullet {
+    font-size: 10px;
+  }
+}

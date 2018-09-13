@@ -1,0 +1,23 @@
+.wrapper {
+  width: 60%;
+  margin: auto;
+  .buttons-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  .responsive-table-container {
+    border-collapse: separate;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    .responsive-table-container {
+      width: 100%;
+    }
+  }
+}

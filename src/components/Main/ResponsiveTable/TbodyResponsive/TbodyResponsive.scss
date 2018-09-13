@@ -1,0 +1,10 @@
+.tbody-responsive-conatiner {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  &__row {
+    height: 60px;
+    &__th-left {
+      background: url("../../../../img/images/background.gif") fixed;
+    }
+  }
+}

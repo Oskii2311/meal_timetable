@@ -1,0 +1,22 @@
+  .top-wrapper-container {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .top-wrapper-container {
+      height: 240px;
+      margin: auto;
+      display: block;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .top-wrapper-container {
+      width: 100%;
+    }
+  }

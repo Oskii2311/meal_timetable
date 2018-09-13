@@ -1,0 +1,31 @@
+@import '../../../../shared/style/variables.scss';
+.thead-container {
+  &__row {
+    height: 50px;
+    &__cell {
+      font-size: 24px;
+      color: #adbb0c;
+      font-weight: 400;
+      background-color: #fff;
+      padding: 5px;
+      &:first-child {
+        background: url("../../../../img/images/background.gif");
+        border-top-left-radius: 4px;
+        width: 70px;
+      }
+      &:last-child {
+        border-top-right-radius: 4px;
+      }
+      &:not(:first-child):not(:nth-of-type(2)):not(:nth-of-type(3)):not(:nth-of-type(4)) {
+        border-left: 2px solid $main-table-border-color;
+      }
+      &:nth-of-type(3) {
+        border-top: 2px solid $table-border-checked-color;
+        border-left: 2px solid $table-border-checked-color;
+      }
+      &:nth-of-type(4) {
+        border-left: 2px solid $table-border-checked-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.shake-responsive-cell {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  &__img {
+    height: 56px;
+    padding-top: 4px;
+    padding-right: 8px;
+  }
+  &__shake {
+    transform: translateY(6px);
+    height: 80%;
+  }
+  &__text {
+    padding-left: 8px;
+  }
+}
